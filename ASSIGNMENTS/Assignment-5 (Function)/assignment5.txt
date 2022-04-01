@@ -1,0 +1,68 @@
+1)write a function to print following fibonacci series using function:
+ 1 1 2 3 5 8 nterm
+
+ def fib(n):
+    
+    a,b = 1,0
+    for i in range(1,n+1):
+        c = a + b
+        print(c,end=" ")
+        a = b
+        b = c
+    
+n = int(input("enter num= "))
+fib(n)
+
+----------------------------------------------------------------------------------------------
+
+2)write a program to find sum of followong series using function
+1! +  2! + 3! + 4! + ….+n! 
+
+def sum(n):
+    sum = 0
+    for i in range(1,n+1):
+        f=1
+        for j in range(1,i+1):
+            f = f*j
+        sum += f
+    print("sum=",sum)
+    print("factorial=",f)
+
+n = int(input("enter num="))
+sum(n)
+
+-----------------------------------------------------------------------------------------------
+
+3)sum of all prime numbers between 1 to n
+
+def sumofprime(num):
+
+    sum = 0
+    for n in range(2,num+1):
+        for i in range(2,n):
+            if(n%i == 0):
+                break
+
+        else:   
+            print(n,"is prime")
+            sum = sum+n
+    print("sum of prime numbers=",sum)
+
+num = int(input("Enter num= "))
+sumofprime(num)
+
+--------------------------------------------------------------------------------------------
+
+4)sum of all odd numbers between 1to n
+
+def sumofodd(n):
+    
+    sum = 0
+    for i in range(0,n+1):
+        if(i%2 != 0):
+           sum += i
+    print("sum of all odd numbers=",sum)
+
+
+n = int(input("enter num="))
+sumofodd(n)

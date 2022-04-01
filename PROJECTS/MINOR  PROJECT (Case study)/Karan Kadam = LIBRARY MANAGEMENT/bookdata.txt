@@ -1,0 +1,8 @@
+101,MySql,Kanetkar,1
+102,Basic Python,Vaishali,1
+103,Data Structures & Algorithms,Geetanjali,1
+104,Operating System,s.Jadhav,1
+105,Dbms,s.Nannaware,1
+106,Php,Rahul Rathod,1
+
+

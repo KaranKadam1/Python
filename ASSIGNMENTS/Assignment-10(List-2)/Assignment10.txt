@@ -1,0 +1,103 @@
+1)merge two list and sort without using inbuilt function
+
+l1 = [5,12,66,4,99]
+l2 = [65,23,48,3]
+
+final_list = l1 + l2
+n =len(final_list)
+
+for j in range(1,n):
+    for i in range(n-j):
+        if(final_list[i] > final_list[i+1]):
+            final_list[i],final_list[i+1] = final_list[i+1],final_list[i]
+
+print("sorted list=",final_list)
+
+/////////////////////////////////////////////////////////////////////////////////
+
+2)Find second largest element in list using bubble sort
+
+l = [11,2,45,6,99]
+n = len(l)
+# bubblesort
+
+for j in range(1,5):
+    for i in range(n-j):
+        if(l[i] > l[i+1]):
+            l[i],l[i+1] = l[i+1],l[i]
+
+k = 2
+print("Second largest element in list=",l[k+1])
+
+/////////////////////////////////////////////////////////////////////////////////
+
+3)Put even and odd elements of a list into different list
+
+list = [2,51,1,8,9,11,86,99]
+
+even = []
+odd = []
+
+for x in list:
+    if (x%2 == 0):
+        even.append(x)
+    else:
+        odd.append(x)
+print("even list=",even)
+print("odd list=",odd)
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+4)find union of two list without using inbuilt function
+
+A = [1,2,3,4,5]
+B = [1,2,3]
+
+c = A+B
+print("Union=",c)
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+5)find intersection of two list without using inbuilt function
+
+A = [1,2,3,4,5]
+B = [1,2,3,8,11]
+
+result=[]
+for x in A:
+    if(x in B):
+        result.append(x)
+print("Intersection=",result)
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+6)sort the list according to second element in sublist
+
+list= [['karan', 10], ['akash', 5], ['ramesh', 20], ['nitesh', 15]]
+
+n = len(list)
+
+for j in range(1,n):
+    for i in range(n-j):
+        if(list[i] > list[i+1]):
+            list[i],list[i+1] = list[i+1],list[i]
+print("sorted list=",list)
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+7)print 1 to 100 in snake ladder pattern
+
+for i in range(10,0,-1):
+    x = i*10
+    
+    data = []
+    for j in range(0,10):
+        data.append(x-j)
+    if(i%2 != 0):
+        data.reverse()
+    
+    for x in data:
+        print(x,end=" ")
+    print()
+
+/////////////////////////////////////////////////////////////////////////////////////////

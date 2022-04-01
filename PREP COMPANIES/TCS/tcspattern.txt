@@ -1,0 +1,11 @@
+TCS Online Test has totally of 6 sections and a total of 92 questions and the time given is 180 mins. We suggest you study from our  TCS Model papers and TCS Sample papers given on our website and a good amount of questions will be of a similar pattern in the TCS Written Test 2022.
+
+Name Of The Section  	Number Of Questions
+Quants	                 26 Ques
+Verbal	                 24 Ques
+Reasoning	             30 Ques
+Programming Logic      	 10 Ques
+Hands On (Coding 1)  	1 Code
+Hands On (Coding 2)	    1 Code
+Total	                92
+

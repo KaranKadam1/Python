@@ -1,0 +1,129 @@
+1)write a program to reverse a list without using inbuilt functions
+
+l1 = [1,2,3,4,5]
+print("original list=",l1)
+
+# using slicing
+reverse_list = l1[::-1]
+print(reverse_list)
+
+# without slicing
+start = 0
+end = len(l1)-1
+
+while(start<end):
+    l1[start],l1[end] = l1[end],l1[start]
+    start += 1
+    end -= 1
+print("reverse list=",l1)
+
+---------------------------------------------------------------------------------------------------------------
+
+2)write a program to create a new list from existing list which contains cube of each number of list
+
+l1 = [1,2,3,4,5]
+
+new_list=[]
+
+for x in l1:
+    new_list.append(x**3)
+print("old list= ",l1)
+print("new list= ",new_list)
+
+----------------------------------------------------------------------------------------------------------------
+
+3)write a program to create a duplicate of an existing list.it should not point the same list
+
+l1 = [1,2,3,4,5]
+l2 = []
+
+for x in l1:
+    l2.append(x)
+print("original list=",l1)
+print("duplicate list=",l2)
+
+----------------------------------------------------------------------------------------------------------------
+
+4)write a program to find second largest element in list
+
+l1 = [1,2,3,4,5]
+n = len(l1)
+
+max = l1[0]
+smax = 0
+
+for i in range(1,n):
+    if(max < l1[i]):
+        smax = max
+        max = l1[i]
+    elif(smax < l1[i]):
+        smax = l1[i]
+
+print("list=",l1)
+print("second largest element in list=",smax)
+
+-------------------------------------------------------------------------------------------------------------
+
+5)accept the number from user and check if this element is present in the list or not.
+  also tell how manyt times it is present in the list.
+
+l1 = [1,1,2,3,3,3,4,6]
+num = int(input("Enter num to check="))
+num_set = set(l1)
+
+if num in l1:
+    print(num,"is present in the list")
+    for x in num_set:
+        if num in num_set:
+            n=l1.count(num)
+        print(num,"is comming",n,"times")
+        break    
+       
+else:
+    print(num,"is not present is the list")
+
+---------------------------------------------------------------------------------------------------------
+
+6)write a program to find max and min element in list without using inbuilt function
+
+l1 = [1,2,3,4,5]
+n = len(l1)
+
+max = l1[0]
+min = l1[0]
+
+for i in range(1,n):
+    if max < l1[i]:
+        max = l1[i]
+    elif min > l1[i]:
+        min = l1[i]
+
+print("max element in list= ",max)
+print("min element in list= ",min)
+
+-------------------------------------------------------------------------------------------------------
+
+7)write a python program to remove duplicate element from a list
+
+def removeDup(l1):
+
+    final_list = []
+
+    for x in l1:
+        if x not in final_list:
+            final_list.append(x)
+
+    return final_list
+
+l1 = [2,4,10,20,5,2,20,4]
+print(removeDup(l1))
+
+--------------------------------------------------------------------------------------------------------------
+
+8)write a program to find sum of all elements of list without using inbuilt function 
+
+l1 = [1,2,3,4,5]
+sum = 0
+for x in l1:
+    sum+=x
+print(sum)

@@ -1,0 +1,81 @@
+Q1)write a program to print first n prime numbers
+
+num = int(input("enter num= "))
+
+for n in range(1,num):
+    for i in range(2,n):
+        if(n%i == 0):
+            break
+
+    else:
+        print(n,end=" ")
+
+
+Q2)Write a program to calculate the sum of following series where n is input by user. 
+1/1! + 2/2! + 3/3! + 4/4! + ... N/N!
+
+n = int(input("enter num= "))
+
+sum = 0
+fact = 1
+for i in range(1,n+1):
+    fact= fact*i
+    sum += (i/fact)
+print("sum of series= ",sum)
+
+
+Q3)Write a program to accept basic salary of n emp. (n should be accepted from user).
+If basic salary is below 20000 then da=10%,ta=12% and hra=15% otherwise da=15%,ta=18% and hra=20%. 
+Based on this calculate the total salary of each emp and also total salary of all emp.
+
+n = int(input("enter num of employees="))
+
+for i in range(1,n+1):
+    basic_salary = int(input("enter salary= "))
+    total = 0 
+
+    if(basic_salary<20000):
+        da = basic_salary *(10/100)
+        hra = basic_salary*(15/100)
+        ta = basic_salary*(12/100)
+        total += basic_salary + da +hra +ta
+       
+    else:
+        da = basic_salary*(15/100)
+        hra = basic_salary*(20/100)
+        ta = basic_salary*(18/100)
+        total += basic_salary + da +hra +ta
+    print("salary of employee= ",total,"Rs")
+
+total+= da +hra +ta + basic_salary
+print("total salay of all employee= ",total,"Rs")
+
+
+Q4)We want to estimate the cost of painting a property. Interior wall painting cost  
+is Rs.18 per sq.ft. and exterior wall painting cost is Rs.12 per sq.ft. 
+Take input as
+1. Number of Interior walls
+2. Number of Exterior walls
+3. Surface Area of each Interior Wall in units of square feet
+4. Surface Area of each Exterior Wall in units of square feet
+
+interior = int(input("Enter no of interior walls \n"))
+exterior = int(input("Enter no of exterior walls \n"))
+
+surface_interior = 0
+surface_exterior = 0
+
+for i in range(0, interior):
+   n = float(input("Enter interior walls area \n"))
+   surface_interior += n
+
+for i in range(0, exterior):
+   n2 = float(input("Enter exterior walls area \n"))
+   surface_exterior += n2
+
+cost_interior = surface_interior*18
+cost_exterior = surface_exterior*12
+
+total_cost = cost_exterior + cost_interior
+print("Total cost= ",total_cost,"INR")
+

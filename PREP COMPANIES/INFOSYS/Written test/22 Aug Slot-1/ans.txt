@@ -1,0 +1,113 @@
+Section I   -   Reasoning ability   (arithmetic and analytical) (15 questions | 25 minutes)
+Section II   -   Technical ability   (mathematical and logical) (10 questions | 35 minutes)
+Section III   -   Verbal ability   (20 questions | 20 minutes)
+Section IV -   Pseudo-code   (5 questions | 10 minutes)
+Section V   -   Numerical puzzle   (4 questions | 10 minutes)
+
+INFOSYS ANSWER
+
+Reasoning ability
+
+1. sales 1972
+2. company refund 8%
+3. property 560897
+4. hills and roads both follows
+5. 95
+6. class interval more than one
+7. 1752
+8. Aty are mac
+9. frequency 3
+
+
+10. average weight. Neither
+11. dairy milk , 27.59
+12. data set 25
+13. train 174
+
+14. dhruv age either
+15. rachel frnds both follow
+16. sanjay dose not neither I or II
+
+Technical Ability &  Verbal ability
+
+1. degardation only 1
+2. median 3
+3. reclessly only 1
+4. two frnd 21
+5. marked price article 2 alone
+6. x:y 12
+
+6. iit delhi refer to dean
+7. no. Of 6s 0   ----------- 
+8. chocolate 18
+9. intermidate right to quazi
+
+10. bus travel 20
+11. hepo,movi
+
+12. Man planted 105
+13. Man buys 75
+
+14. Rita scores 250
+15. Shrikant buys 1050
+16. Hari reach 5am
+17. Heli spees 98 kmph
+
+18. Maries age 39
+19. Apples mangoes. Only 1
+
+20. Six colleges sweety
+20. Amit scroes 52
+
+21. Signs 6×7
+22. Upper class limit
+
+23. Rakhi brother
+24. A@c
+
+25. Sohan south west
+26. Shreya at left of amit
+27. Purvi corner
+
+28. Sixty percent 3:4
+29. Must be company CEO
+31. Bus arrive 15min
+
+Sixty percent 3:4
+Must be company CEO
+Bus arrive 15min
+
+Data both necessary
+
+Digit unit place 2
+Rony father 26yr
+
+Some punctual are trains
+Smallest no which 180000 is 9
+
+25 jan 2020 :121
+School assembly 27
+
+*iit delhi refer to dean
+* no. Of 6s 0
+*chocolate 18
+*intermidate right to quazi
+
+*bus travel 20
+*hepo,movi
+
+Man planted 105
+Man buys 75
+
+Rita scores 250
+Shrikant buys 1050
+Hari reach 5am
+Heli spees 98 kmph
+
+psedo code:
+
+In a certain language fan is coded as 21 ans:36
+
+Sohan facing north east ans:east
+
+20 years before age of rohy fathers ans:24

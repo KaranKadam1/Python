@@ -1,0 +1,133 @@
+1)Replace all occurence of 'a' with $ in a string
+
+string1 = input("enter string=")
+ 
+if 'a' in string1:
+    string=string1.replace('a','$')
+print("Original string=",string1)
+print("Modified String=",string)
+
+---------------------------------------------------------------------------------------------------
+
+2)Remove the nth index character from a non-empty string
+
+string = input("Enter string=")
+n = int(input("enter the index of the character="))
+
+first_half = string[:n]
+second_half = string[n+1:]
+New = first_half + second_half
+
+print("Modified string=",New)
+
+----------------------------------------------------------------------------------------------------
+
+3)Check if two strings are anagrams
+
+s1 = input("enter string 1 =")
+s2 = input("enter string 2 =")
+
+if(sorted(s1) == sorted(s2)):
+    print("The strings are anagrams")
+else:
+    print("The strings aren't anagrams")
+
+-----------------------------------------------------------------------------------------------------
+
+4)Python program to form new string where the first character and last character have been exchange
+
+string = input("Enter a string=")
+
+start = string[0]
+end = string[-1]
+
+new = end + string[1:-1]+start
+print("Modified string=",new)
+
+-------------------------------------------------------------------------------------------------
+
+5)Count number of vowels in string
+
+string = input("Enter a string=")
+vowels = 0
+
+for x in string:
+    if(x in "aeiou"):
+        vowels = vowels+1
+print(vowels)
+
+-----------------------------------------------------------------------------------------------
+
+6)replace every blank space with hyphen in string
+
+string = input("Enter a string=")
+
+for x in string:
+    if(x == ' '):
+        print(string.replace(' ','-'))
+
+------------------------------------------------------------------------------------------------
+
+7)calculate length of string without using library function
+
+string = input("Enter a string = ")
+
+count = 0
+
+for x in string:
+    count = count + 1
+print("length of string = ",count)
+
+--------------------------------------------------------------------------------------------------
+
+8)Remove the chracters of odd index values in a string
+
+string = input("enter a string= ")
+result= ""
+
+for i in range(len(string)):
+    if i%2 == 0:
+        result = result + string[i]
+print(result)
+
+---------------------------------------------------------------------------------------------------
+
+9)calculate number of words and the number of characters present in string
+
+string = input("Enter string= ")
+
+char = 0
+word = 1
+
+for x in string:
+    char = char+1
+    if(x == ' '):
+        word = word + 1
+
+print(word)
+print(char)
+
+---------------------------------------------------------------------------------------------------
+
+10)take two strings and display the larger string without using built-in-function
+
+string1 = input("Enter string1=")
+string2 = input("Enter string2=")
+
+string1_count = 0
+string2_count = 0
+
+for x in string1:
+    string1_count += 1
+
+for x in string2:
+    string2_count += 1
+
+if(string1_count > string2_count):
+    print("Larger string=",string1)
+elif(string1_count == string2_count):
+    print("Both strings are equal")
+else:
+    print("Larger string=",string2)
+
+---------------------------------------------------------------------------------------------------------
